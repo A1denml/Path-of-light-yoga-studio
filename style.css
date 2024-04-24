@@ -1,13 +1,60 @@
-body{background-color:#F5F5F5;
+body{background-color:#40407A;
 color: #40407A;
-font-family: verdana,arial, sans-serif;}
-header{background-color:#80CBC4;
-background-image: url(lilyheader\ \(1\).jpg); 
-background-position: right;
- background-repeat: no-repeat;}
- nav{font-weight: bold; text-align: center;}
+font-family: verdana,arial, sans-serif;
+max-width: 1600px;
+min-width: 900px;
+margin:0;}
+header{background-color:#40407A;
+    color: #FFFFFF;
+background-image: url(sunrise.jpg);
+ background-size: 100% 100%;
+
+}
+ nav{font-weight: bold; text-align: right;
+    background-color: white;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
  nav a{text-decoration: none;}
- h1{line-height: 400%;text-indent: 1em;}
-footer{Background-color:#80CBC4;
-font-style: italic; font-size: small;text-align: center;}
+
+footer{
+font-style: italic; font-size: small;text-align: center;
+padding: 1.5em;
+}
 li{font-size: 90%;}
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #F5F5F5;
+    padding: 2em;
+}
+
+.home{
+    height: 40vh;
+    padding-top: 6em;
+    padding-left: 8em;
+    font-size: 120%;
+    min-height: 300px;
+}
+.content{
+    height: 200px;
+    padding-top: 2em;
+    padding-left: 8em;
+    padding-bottom: 2em;
+}
+#mathero{
+    height: 300px;
+    background-image: url(yogamat\ \(1\).jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#loungehero{
+    height: 300px;
+    background-image: url(yogalounge\ \(1\).jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+h2{ margin: 0;}
