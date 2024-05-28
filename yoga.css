@@ -110,7 +110,23 @@ section { padding-right: .5em;
 					  width: 80%; }	
 }
 		
-		
-		
+table{
+	border: 1px solid #40407A;
+	margin-bottom: 1em;
+	border-collapse: collapse;
+}
+th, td{
+	padding:0.5em;
+	border: 1px solid #40407A;
+
+}
+tr:nth-of-type(even){
+	background-color: #D7E8E9;
+}
+caption{
+	margin: 1em;
+	font-size: 120%;
+	font-weight: bold;
+}
 		
 		
